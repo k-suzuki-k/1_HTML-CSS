@@ -245,15 +245,25 @@ header {
     width: 800px;
     margin: 0 auto;
 }
+.contact-contents h3 {
+    width: 130px;
+    font-size: 20px;
+    margin: 0 auto 5px auto;
+    text-align: left;
+}
+.contact-contents h3:nth-child(2) {
+    margin-top: 20px;
+}
 .contact-info {
     width: 400px;
     float: left;
 }
-.contact-info h3 {
-    font-size: 20px;
-    margin: 5px;
+.contact-info p {
+    width: 130px;
+    margin: 0 auto;
+    text-align: left;
 }
-.address {
+p.address {
     margin-bottom: 20px;
 }
 
@@ -261,14 +271,15 @@ header {
     width: 400px;
     float: left;
 }
-.sns {
+.contact-sns .sns {
     font-size:20px;
+    width: 170px;
     margin-bottom: 5px;
 }
 .contact-sns i {
     font-size: 50px;
 }
-.contact-sns:nth-child(3) {
+.contact-sns :nth-child(3) {
     margin: 0 20px;
 }
 
